@@ -1,0 +1,15 @@
+npm init
+npm i express mongoose body-parser --save
+npm install -g nodemon
+
+PS C:\Users\HP\Desktop\Angular_App> cd nodejs
+PS C:\Users\HP\Desktop\Angular_App\nodejs> node index.js
+Server started at port: 5000
+MongoDB connection succeeded.
+
+
+ create angular 5 project => 
+a) goto view 
+b) integrated terminal
+
+npm install -g @angular/cli
