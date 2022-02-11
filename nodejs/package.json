@@ -12,6 +12,7 @@
     "@angular/common": "^13.2.2",
     "@angular/http": "^7.2.16",
     "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "mongoose": "^6.2.0",
     "rxjs-observable": "0.0.7"
