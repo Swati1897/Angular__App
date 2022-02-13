@@ -9,6 +9,7 @@ router.get('/', (req, res) =>{
         if(!err) 
         { 
             res.send(docs);
+          
         }
         else{
             console.log(`Error in Retriving Employee :` + JSON.stringify(err, undefined, 2));
@@ -24,6 +25,7 @@ router.get('/:id', (req, res)=>{
             if(!err) 
             { 
                 res.send(doc);
+            
             }
             else{
                 console.log(`Error in Retriving Employee :` + JSON.stringify(err, undefined, 2));

@@ -3,6 +3,7 @@ import { NgForm } from '@angular/forms';
 
 import { EmployeeService } from '../shared/employee.service';
 import { Employee } from '../shared/employee.model';
+import { Int32 } from 'mongodb';
 
 declare var M: any;
 
